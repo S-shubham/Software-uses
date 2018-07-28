@@ -1,0 +1,26 @@
+..............
+we will see how to clone a repository and install the dependencies i.e. softwares to run it in your local machine
+
+1-> go to the specified repository
+2-> copy the link for cloning the repo
+3-> start git bash 
+4-> move to the directory where you want to clone the repo in git bash 
+5-> enter command 
+             < git clone paste_the_link>
+6-> move to the newly cloned repo (in my case )
+             <cd angulardata>
+7->   now to install dependencies 
+            <npm install>
+            !! it did not work in my case
+            ..........................................................
+....................................
+
+after cloning all the original branches might not be visible initially except master
+
+
+.........................................
+
+if you want to clone a specific branch then copy the link as usual and issue the command
+
+<git clone -b Name_of_branch <paste_tht_link> >
+
