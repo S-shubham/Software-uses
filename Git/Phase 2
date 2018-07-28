@@ -1,0 +1,75 @@
+you can see every commit that you have made using git log command
+<git log>
+
+every single commit can be uniquely identified using two things
+1) Commit message that you put there
+2) A long hash sequence 
+
+if we want to go back to a stage from where all future commits should not exist we can 
+<git checkout <hash code f commit> >
+
+this will detach the master branch and create anothter branch where none of the future commits exist
+and you can do all normal task in the new section 
+
+////////////////////////////////////
+
+how to find all branches
+<git branch>
+
+the star next to the branch name is our current branch in which we are working
+
+how to come back to master branch
+<git checkout master >
+
+/////////////////
+
+now once back in the master branch if we want to store the alt. branch state which we were just using 
+then we can use 
+
+<git branch "give a name" hash initials >
+
+.......................................
+
+if i want to create a new branch 
+<git branch give_a_name >
+
+this will create a new branch but you will stay in Master branch
+
+you can verify the creation of new branch by issuing the command
+<git branch>
+
+...................................................
+
+...................................................
+
+A very cool fact 
+let's say that you want to do some tweaking into your project and see how it turns out to be
+you can do that by creating a paralle branch and do changes to it and whenever feel like that you are done
+you can come back to master.
+
+same folder and files are storing different contents in different branches
+
+if you happen to like the changes in the new branch and wants to bring it to the master branch
+you can easily do that by using 
+
+< git merge app01>
+you do not need to mention the second branch name as you are already in it 
+
+............................................................
+
+-> How to change the name of the branch
+< git branch -m oldName NewName>
+
+......................................
+
+-> How to delete a branch
+
+<git branch -D NameOfBranch >
+
+....................................
+
+
+
+...............................................................
+
+
