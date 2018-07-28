@@ -1,0 +1,90 @@
+first download git from git-slc 
+finish installing it
+
+once done check if it has been installed or not by typing <git> in the cmd
+
+now just randomly create a folder at any location
+in cmd enter that directory
+
+inside that folder create a text file 
+now from cmd enter command :-
+<git init>
+
+this will initialize that folder and some extra file and folder will be added to it
+after that 
+if you want to add any specific file to git staging enviornment
+simply enter command :- 
+<git add _name of file_ >
+
+now to verify if the file has been added to the staging enviornment or not type
+
+<git status>
+
+now if you want to add all the files at once to the git staging enviornment type
+ <git add . >
+ 
+ now if you want to commit something enter command
+ 
+ <git commit -m "type some message" >
+ 
+ now if you want to know what was the last commit or who made the last commit
+ 
+ <git log>
+ 
+ 
+ after commiting the file. 
+ make some changes to the file and save it
+ now check its status by typing command
+ 
+ <git status>
+ 
+ this will tell that some changes has been made to the file
+ 
+ now if you want to undo the changes simply type 
+ < git checkout <name of the file> >
+ 
+ 
+ -> now do some changes and add it to staging enviiornment
+ check status and then do some changes to file but do not add it to staging env.
+ 
+ sometimes you want to clear staging enviornment and for that you can do
+ <git reset HEAD filename>
+ 
+ when you do <git status> command now it will show there are nothing in the staging env.
+ ///////////////////////////////////////////////
+ 
+ 
+ if i deleted a file form my os
+ then i can get it back by doing 
+ 
+ <git checkout -- <name of file> >
+ 
+ ........
+ 
+ just like any modification, deletion is also a change and we need to put it into the staging env. and then commit
+ for it to become permanent
+ 
+ //////////////////////
+ 
+ 
+ Now if we use the command 
+ <git rm name of file>
+ 
+ this will delete file and push it to staging area - two things at a time
+ 
+ 
+ ///////////////////////
+ 
+ if I have made more than one changes like couple of addition,modification and deletion of files and I want to push it to staging area
+ then Use command
+ 
+ <git add --all>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
